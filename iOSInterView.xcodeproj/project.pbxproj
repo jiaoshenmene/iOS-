@@ -15,6 +15,7 @@
 		3408C1A5223B79F30096A145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3408C1A4223B79F30096A145 /* main.m */; };
 		3408C1AF223B79F40096A145 /* iOSInterViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3408C1AE223B79F40096A145 /* iOSInterViewTests.m */; };
 		3408C1BA223B79F40096A145 /* iOSInterViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3408C1B9223B79F40096A145 /* iOSInterViewUITests.m */; };
+		3408C1CB223B7B130096A145 /* LockStudy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3408C1CA223B7B130096A145 /* LockStudy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3408C1B5223B79F40096A145 /* iOSInterViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSInterViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3408C1B9223B79F40096A145 /* iOSInterViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSInterViewUITests.m; sourceTree = "<group>"; };
 		3408C1BB223B79F40096A145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3408C1C9223B7B130096A145 /* LockStudy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockStudy.h; sourceTree = "<group>"; };
+		3408C1CA223B7B130096A145 /* LockStudy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockStudy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				3408C196223B79F20096A145 /* AppDelegate.m */,
 				3408C198223B79F20096A145 /* ViewController.h */,
 				3408C199223B79F20096A145 /* ViewController.m */,
+				3408C1C8223B7AE00096A145 /* Lock */,
 				3408C19B223B79F20096A145 /* Main.storyboard */,
 				3408C19E223B79F30096A145 /* Assets.xcassets */,
 				3408C1A0223B79F30096A145 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				3408C1BB223B79F40096A145 /* Info.plist */,
 			);
 			path = iOSInterViewUITests;
+			sourceTree = "<group>";
+		};
+		3408C1C8223B7AE00096A145 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				3408C1C9223B7B130096A145 /* LockStudy.h */,
+				3408C1CA223B7B130096A145 /* LockStudy.m */,
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3408C1CB223B7B130096A145 /* LockStudy.m in Sources */,
 				3408C19A223B79F20096A145 /* ViewController.m in Sources */,
 				3408C1A5223B79F30096A145 /* main.m in Sources */,
 				3408C197223B79F20096A145 /* AppDelegate.m in Sources */,
